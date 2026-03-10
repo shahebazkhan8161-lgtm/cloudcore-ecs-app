@@ -33,3 +33,7 @@ variable "container_memory" {
 variable "desired_count" {
   default = 1
 }
+
+variable "environments" {
+  default = ["uat", "prod"]
+}
